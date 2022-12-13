@@ -185,3 +185,47 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 59ms (Views: 56.7ms | Allocations: 15587)
 
 
+Started GET "/pages/about_us" for 127.0.0.1 at 2022-12-13 23:59:29 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 1.8ms | Allocations: 139)
+  Rendered layout layouts/application.html.erb (Duration: 29.1ms | Allocations: 14361)
+Completed 200 OK in 34ms (Views: 32.0ms | Allocations: 15544)
+
+
+Started GET "/pages/about_us" for 127.0.0.1 at 2022-12-14 00:01:48 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/pages/about_us"):
+  
+Started GET "/about-us" for 127.0.0.1 at 2022-12-14 00:01:55 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 30.6ms | Allocations: 13989)
+Completed 200 OK in 35ms (Views: 34.1ms | Allocations: 14839)
+
+
+Started GET "/contact-us" for 127.0.0.1 at 2022-12-14 00:02:00 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 1.5ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 2490)
+Completed 200 OK in 13ms (Views: 11.9ms | Allocations: 2887)
+
+
+Started GET "/terms-and-conditions" for 127.0.0.1 at 2022-12-14 00:02:10 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/terms-and-conditions"):
+  
+Started GET "/terms-and-conditions" for 127.0.0.1 at 2022-12-14 00:02:29 +0530
+Processing by PagesController#terms_and_conditions as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/terms_and_conditions.html.erb within layouts/application
+  Rendered pages/terms_and_conditions.html.erb within layouts/application (Duration: 2.0ms | Allocations: 138)
+  Rendered layout layouts/application.html.erb (Duration: 37.1ms | Allocations: 14226)
+Completed 200 OK in 41ms (Views: 39.6ms | Allocations: 15151)
+
+
