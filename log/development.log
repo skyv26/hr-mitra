@@ -119,3 +119,30 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 17ms (Views: 15.9ms | Allocations: 4138)
 
 
+Started GET "/home/index" for 127.0.0.1 at 2022-12-13 23:43:12 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 138)
+  Rendered layout layouts/application.html.erb (Duration: 33.6ms | Allocations: 14351)
+Completed 200 OK in 38ms (Views: 36.8ms | Allocations: 15531)
+
+
+Started GET "/home" for 127.0.0.1 at 2022-12-13 23:43:15 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2350)
+Completed 200 OK in 11ms (Views: 10.0ms | Allocations: 2673)
+
+
+Started GET "/home" for 127.0.0.1 at 2022-12-13 23:43:23 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 21.5ms | Allocations: 13995)
+Completed 200 OK in 25ms (Views: 24.2ms | Allocations: 14846)
+
+
