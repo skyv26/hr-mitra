@@ -1,3 +1,6 @@
 class HomeController < ApplicationController
-  def index; end
+  def index
+    @title = 'Hello World'
+    @text = 'I am learning Rails!'
+  end
 end
