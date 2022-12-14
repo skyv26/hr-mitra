@@ -328,3 +328,136 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 13ms (Views: 11.8ms | Allocations: 3995)
 
 
+Started GET "/" for 127.0.0.1 at 2022-12-14 22:36:58 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 20.6ms | Allocations: 4787)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 4877)
+Completed 500 Internal Server Error in 27ms (Allocations: 5989)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1><%= @title %></h1>
+
+<p><%= @text %></p>
+
+<%# <%= link_to 'About Us', about_path %> %>
+
+<%# <%= link_to 'About Us', controller: :pages, action: :about_us %> %>
+
+<%= link_to 'About Us', 'about' target: '_blank' data: {name: 'about-page', resource: 'pages'} %>
+
+<%# <%= link_to nil, about_path %> %>
+
+):
+1:    <h1><%= @title %></h1>
+2:    
+3:    <p><%= @text %></p>
+4:    
+5:    <%# <%= link_to 'About Us', about_path %> %>
+6:    
+7:    <%# <%= link_to 'About Us', controller: :pages, action: :about_us %> %>
+8:    
+9:    <%= link_to 'About Us', 'about' target: '_blank' data: {name: 'about-page', resource: 'pages'} %>
+10:    
+11:    <%# <%= link_to nil, about_path %> %>
+  
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+Started GET "/" for 127.0.0.1 at 2022-12-14 22:37:12 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1195)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1276)
+Completed 500 Internal Server Error in 8ms (Allocations: 2353)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1><%= @title %></h1>
+
+<p><%= @text %></p>
+
+<%# <%= link_to 'About Us', about_path %> %>
+
+<%# <%= link_to 'About Us', controller: :pages, action: :about_us %> %>
+
+<%= link_to 'About Us', 'about', target: '_blank' data: {name: 'about-page', resource: 'pages'} %>
+
+<%# <%= link_to nil, about_path %> %>
+
+):
+1:    <h1><%= @title %></h1>
+2:    
+3:    <p><%= @text %></p>
+4:    
+5:    <%# <%= link_to 'About Us', about_path %> %>
+6:    
+7:    <%# <%= link_to 'About Us', controller: :pages, action: :about_us %> %>
+8:    
+9:    <%= link_to 'About Us', 'about', target: '_blank' data: {name: 'about-page', resource: 'pages'} %>
+10:    
+11:    <%# <%= link_to nil, about_path %> %>
+  
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:9: syntax error, unexpected local variable or method, expecting ')'
+Started GET "/" for 127.0.0.1 at 2022-12-14 22:37:31 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 357)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 3205)
+Completed 200 OK in 13ms (Views: 11.5ms | Allocations: 4312)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-14 22:38:04 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 66)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2422)
+Completed 200 OK in 11ms (Views: 9.4ms | Allocations: 2751)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-14 22:38:05 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 66)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2422)
+Completed 200 OK in 10ms (Views: 9.1ms | Allocations: 2735)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-14 22:38:33 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 350)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3183)
+Completed 200 OK in 14ms (Views: 11.8ms | Allocations: 4290)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-12-14 22:38:50 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 2.7ms | Allocations: 137)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 2761)
+Completed 200 OK in 27ms (Views: 25.4ms | Allocations: 3666)
+
+
