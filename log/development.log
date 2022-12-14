@@ -247,3 +247,30 @@ Processing by PagesController#about_us as HTML
 Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 3791)
 
 
+Started GET "/" for 127.0.0.1 at 2022-12-14 22:31:34 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 830)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 3693)
+Completed 200 OK in 27ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 4841)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-12-14 22:31:36 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.9ms | Allocations: 137)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 2766)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 3691)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-12-14 22:31:39 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.3ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 2354)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 2683)
+
+
