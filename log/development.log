@@ -274,3 +274,39 @@ Processing by PagesController#about_us as HTML
 Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 2683)
 
 
+Started GET "/" for 127.0.0.1 at 2022-12-14 22:32:22 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 436)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3272)
+Completed 200 OK in 20ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 4395)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-12-14 22:32:24 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 1.5ms | Allocations: 137)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2763)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 3678)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-12-14 22:32:27 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2362)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 2691)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-12-14 22:32:29 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 2370)
+Completed 200 OK in 16ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 2682)
+
+
