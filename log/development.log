@@ -545,3 +545,103 @@ Processing by PagesController#terms_and_conditions as HTML
 Completed 200 OK in 16ms (Views: 14.4ms | Allocations: 3164)
 
 
+Started GET "/" for 127.0.0.1 at 2022-12-14 23:28:11 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.4ms | Allocations: 272)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 585)
+  Rendered layout layouts/application.html.erb (Duration: 93.6ms | Allocations: 5670)
+Completed 200 OK in 102ms (Views: 101.0ms | Allocations: 6564)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-14 23:28:33 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.7ms | Allocations: 234)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 3989)
+Completed 200 OK in 17ms (Views: 15.7ms | Allocations: 4318)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-14 23:28:41 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.9ms | Allocations: 234)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 4003)
+Completed 200 OK in 22ms (Views: 21.3ms | Allocations: 4316)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-14 23:28:55 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.8ms | Allocations: 234)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 4642)
+Completed 200 OK in 23ms (Views: 21.8ms | Allocations: 4955)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-14 23:29:07 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.1ms | Allocations: 234)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 4019)
+Completed 200 OK in 20ms (Views: 18.6ms | Allocations: 4332)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-14 23:29:19 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.7ms | Allocations: 234)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 4007)
+Completed 200 OK in 21ms (Views: 20.1ms | Allocations: 4320)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-14 23:29:27 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.6ms | Allocations: 234)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 4634)
+Completed 200 OK in 23ms (Views: 20.8ms | Allocations: 4947)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-14 23:29:36 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.6ms | Allocations: 234)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 4010)
+Completed 200 OK in 19ms (Views: 17.5ms | Allocations: 4323)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-14 23:29:46 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.7ms | Allocations: 234)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 2654)
+Completed 200 OK in 12ms (Views: 10.9ms | Allocations: 2967)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-14 23:30:08 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.9ms | Allocations: 234)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 3993)
+Completed 200 OK in 15ms (Views: 14.5ms | Allocations: 4306)
+
+
