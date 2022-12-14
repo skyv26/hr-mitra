@@ -229,3 +229,21 @@ Processing by PagesController#terms_and_conditions as HTML
 Completed 200 OK in 41ms (Views: 39.6ms | Allocations: 15151)
 
 
+Started GET "/" for 127.0.0.1 at 2022-12-14 22:27:03 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 678)
+  Rendered layout layouts/application.html.erb (Duration: 167.5ms | Allocations: 35062)
+Completed 200 OK in 200ms (Views: 177.1ms | ActiveRecord: 0.0ms | Allocations: 41108)
+
+
+Started GET "/about" for 127.0.0.1 at 2022-12-14 22:27:07 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 1.1ms | Allocations: 138)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 2797)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 3791)
+
+
