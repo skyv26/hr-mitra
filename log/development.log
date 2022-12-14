@@ -515,3 +515,33 @@ Processing by PagesController#contact_us as HTML
 Completed 200 OK in 20ms (Views: 18.5ms | Allocations: 2821)
 
 
+Started GET "/" for 127.0.0.1 at 2022-12-14 23:03:39 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.8ms | Allocations: 485)
+  Rendered home/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 855)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 3690)
+Completed 200 OK in 20ms (Views: 18.5ms | Allocations: 4787)
+
+
+Started GET "/privacy-policy" for 127.0.0.1 at 2022-12-14 23:04:11 +0530
+Processing by PagesController#privacy_policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/privacy_policy.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.8ms | Allocations: 484)
+  Rendered pages/privacy_policy.html.erb within layouts/application (Duration: 4.9ms | Allocations: 767)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 3596)
+Completed 200 OK in 24ms (Views: 22.5ms | Allocations: 4701)
+
+
+Started GET "/terms-and-conditions" for 127.0.0.1 at 2022-12-14 23:04:16 +0530
+Processing by PagesController#terms_and_conditions as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/terms_and_conditions.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.7ms | Allocations: 234)
+  Rendered pages/terms_and_conditions.html.erb within layouts/application (Duration: 2.4ms | Allocations: 425)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 2787)
+Completed 200 OK in 16ms (Views: 14.4ms | Allocations: 3164)
+
+
