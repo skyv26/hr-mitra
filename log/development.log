@@ -310,3 +310,21 @@ Processing by PagesController#about_us as HTML
 Completed 200 OK in 16ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 2682)
 
 
+Started GET "/about" for 127.0.0.1 at 2022-12-14 22:33:16 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 3.0ms | Allocations: 145)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 2992)
+Completed 200 OK in 26ms (Views: 21.0ms | Allocations: 4099)
+
+
+Started GET "/" for 127.0.0.1 at 2022-12-14 22:33:17 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 491)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 3085)
+Completed 200 OK in 13ms (Views: 11.8ms | Allocations: 3995)
+
+
